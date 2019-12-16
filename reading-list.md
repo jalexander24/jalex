@@ -1,8 +1,8 @@
 ---
-title: Clases 
+title: Blog
 subtitle: Classes
 layout: "page"
-icon: fa-book
+icon: fa-pencil-alt
 order: 3
 ---
 
