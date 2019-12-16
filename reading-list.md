@@ -1,6 +1,6 @@
 ---
 title: Clases 
-subtitle: a list of books I read
+subtitle: Classes
 layout: "page"
 icon: fa-book
 order: 3
