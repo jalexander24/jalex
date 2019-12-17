@@ -1,6 +1,6 @@
 ---
 title: INTRODUCCIÓN DE LA INGENIERÍA DE SOFTWARE
-author: 
+author: JOSUE
 layout: post
 ---
 Definicion de Ingenieria de Software
