@@ -1,6 +1,7 @@
 ---
 title: Fundamentos a la Ingeniería de Software (IS)
-author: JOSUE
+author: Josue baque
+order: 1
 layout: post
 ---
 **Definicion de Ingenieria de Software**
