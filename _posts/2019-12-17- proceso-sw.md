@@ -18,7 +18,61 @@ Muchos de los procesos de soIware son diferentes, pero todos implican:
 • Validación;
 • Evolución.
 
-***CaracterísJcas del proceso de SW***
+**CaracterísJcas del proceso de SW**
+
+* El proceso establece todas las acBvidades principales
+* El proceso uBliza recursos, está sujeto a una serie de restriccionesy genera productos intermedios y finales
+* El proceso puede estar compuesto de subprocesos que se encadenan de alguna manera. Puede definirse como una jerarquía de procesos organizada de modo que cada subproceso tenga su propio modelo de proceso
+* Cada acBvidad del proceso Bene criterios de entrada y de salida, de modo que se conoce cuándo comienza y cuándo termina una actividad
+* Las actividades se organizan en secuencia de modo que resulta claro cuando una actividad se realiza en orden relaBvo a otras actividades
+* Todo proceso Bene un conjunto de principios orientadores que explican las metas de cada acBvidad
+* Las restricciones o controles pueden aplicarse a una actividad, recurso o producto
+
+**Otras caracterísJcas del proceso de SW**
+* ***Comprensión***
+  * Está definido y es comprensible
+* ***Visibilidad***
+  * Se visualizan los progresos externamente
+* ***Soporte***
+  * Está soportado por herramientas CASE
+* ***Aceptación***
+  * Es aceptable para todos los actores implicados
+* ***Confianza***
+  *Los errores del proceso se detectan antes de que se produzcan errores en el producto
+* ***Robustez***
+  * Se puede conBnuar a pesar de problemas inesperados
+* ***Capacidad de mantenimiento***
+  *Puede ajustarse a las necesidades de cambio de la organización
+* ***Rapidez***
+  * Con qué “velocidad” se producen los sistemas
+* ***Adaptación***
+  * Capacidad que Bene un usuario del mismo de adaptarlo a sus necesidade
+
+**Importancia del proceso de SW**
+
+Un proceso soIware debe especificar:
+* La ***secuencia de actividades*** a realizar por el equipo de desarrollo
+  * Flujo de actividades
+* Los ***productos*** que deben crearse
+  * Resultados del trabajo (modelos, documentos, datos informes...)
+  * Qué y cuándo
+* La ***asignación de tareas*** a cada miembro del equipo y al equipo como un todo
+
+Los ***criterios*** para controlar el proceso
+* Se establece el control de gesBón de los proyectos software
+* Establecimiento de hitos
+Las posibles heurísticas
+* Facilita la gesBón del proyecto
+* Establece una división del trabajo
+* Facilita la comunicación de los miembros del equipo
+* Permite la reasignación y la reuBlización de personal especializado
+  * Transferencia entre proyectos
+* Mejora la producBvidad y el desarrollo
+  * El desarrollo es reproducible
+* Establece el contexto en el que se aplican los métodos técnicos
+* GesBona el cambio adecuadamente
+* Asegura la calidad
+
 
 
 
