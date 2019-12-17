@@ -77,4 +77,5 @@ Tipos de mantenimiento.
 * Adaptativo. Adaptar el programa a los cambios en su entorno (cambio de SO, de CPU, de legislación, …)
 * Preventivo. El software se deteriora con los cambios, este mantenimiento hace cambios para que los programas se puedan corregir, adaptar y mejorar más rápidamente -> Reingeniería del SW.
 
+<span class="image left"><img src="{{ 'assets/images/cuadro1.png' | relative_url }}" alt="" /></span>
 
