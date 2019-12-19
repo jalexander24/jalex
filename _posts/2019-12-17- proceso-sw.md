@@ -77,6 +77,7 @@ Las posibles heurísticas
 **Estándares relacionados con el proceso de SW**
 
 * ***Estándar ISO/IEC/IEEE 12207:2017***
+ 
  * El estándar ISO/IEC/IEEE 12207:2017 [ISO/IEC/IEEE, 2017] relativo a los procesos del ciclo de vida del software
  * Se aplica a la adquisición de sistemas de software , productos y servicios, al suministro, desarrollo, operación, mantenimiento y eliminación de productos de software o componentes de software de cualquier sistema, ya sea que se realice interna o externamente a una organización.
  * Se incluyen aquellos aspectos de la definición del sistema necesarios para  proporcionar el contexto de los productos y servicios de software
