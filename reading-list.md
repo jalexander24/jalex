@@ -6,17 +6,25 @@ icon: fa-pencil-alt
 order: 3
 ---
 
-I love books! Here are some I'm reading now:
+---
+title: Blog
+layout: default
+permalink: blog
+order: 3
+icon: fa-pencil-alt
+---
 
-1. Robert Burton: *The Anatomy of Melancholy*
-2. Robert Musil: *The Man Without Qualities*
-3. Kazuo Ishiguro: *The Unconsoled*
-4. Malcolm Lowry: *Under the Volcano*
-5. Virginia Woolf: *The Waves*
-6. James Joyce: *Finnegans Wake*
-7. Thomas Wolfe: *Look Homeward, Angel*
-8. William Thackeray: *Pendennis*
-9. Karl Marx: *Capital*
-10. James Woodforde: *The Diary of A Country Parson*
-
-source: [The Guardian](https://www.theguardian.com/books/booksblog/2011/jan/04/best-boring-books)
+{% for blog in site.blog %}
+<article class="post">
+  <!--{% if blog.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : blog.img}})" href="{{blog.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}-->
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{blog.url | prepend: site.baseurl}}">{{blog.title}}</a></h2>
+    <p>{{ blog.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{blog.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ blog.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
