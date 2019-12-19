@@ -1,9 +1,10 @@
 ---
 title: Modelos de procesos de software 
-author: Jonathan Stalyn Castro Velez
+author: Josue Baque
 layout: post
 ---
 **Modelo de Cascada**
+
 <span class="image left"><img src="{{ 'assets/images/cascada.png' | relative_url }}" alt="" /></span>
 
 Las fases están identificadas por separado: 
